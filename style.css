@@ -1,0 +1,15 @@
+p button {
+  padding: 5px 20px;
+  background-color: #271a1a;
+  color: #fff;
+  outline: none;
+  border: none;
+  margin-right: 6px;
+  font-size: 20px;
+  transition: .5s;
+  border-radius: 5px;
+}
+
+p button:hover {
+  opacity: .8;
+}
