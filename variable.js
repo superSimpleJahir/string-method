@@ -1,44 +1,76 @@
 let cartQuantity = 0;
 
 function showQuantity() {
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  alert(`Cart Quantity: ${cartQuantity}`);
 }
 
 function addToCart() {
-  cartQuantity++;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity + 1 > 10) {
+    alert(`The cart is full.`);
+  } else {
+    cartQuantity++;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 
 function plas2() {
-  cartQuantity += 2;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity + 2 > 10) {
+    alert(`The cart is full.`);
+  } else {
+    cartQuantity += 2;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 
 function plas3() {
-  cartQuantity += 3;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity + 3 > 10) {
+    alert(`The cart is full.`);
+  } else {
+    cartQuantity += 3;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 
 function plas4() {
-  cartQuantity += 4;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity + 4 > 10) {
+    alert(`The cart is full.`);
+  } else {
+    cartQuantity += 4;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 
 function plas5() {
-  cartQuantity += 5;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity + 5 > 10) {
+    alert(`The cart is full.`);
+  } else {
+    cartQuantity += 5;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 function mainas1() {
-  cartQuantity--;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity - 1 < 0) {
+    alert(`Not enough items in the cart.`);
+  } else {
+    cartQuantity--;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 function mainas2() {
-  cartQuantity -= 2;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity - 2 < 0) {
+    alert(`Not enough items in the cart.`);
+  } else {
+    cartQuantity -= 2;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 function mainas3() {
-  cartQuantity -= 3;
-  console.log(`Cart Quantity: ${cartQuantity}`);
+  if (cartQuantity - 3 < 0) {
+    alert(`Not enough items in the cart.`);
+  } else {
+    cartQuantity -= 3;
+    console.log(`Cart Quantity: ${cartQuantity}`);
+  }
 }
 
 function resetCart() {
